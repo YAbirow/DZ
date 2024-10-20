@@ -4,6 +4,8 @@ while index < len(my_list):
     number = my_list[index]
     if number < 0:
         break
-    if number >= 0:
-        print(number)
+    if number == 0:
+        index += 1
+        continue
+    print(number)
     index += 1
