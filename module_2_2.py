@@ -5,8 +5,8 @@ third = int(input("Введите третье число: "))
 
 # Условная конструкция для проверки равенства чисел
 if first == second == third:
-    print(3)  # Все числа равны
+    print(3)
 elif first == second or second == third or first == third:
-    print(2)  # Есть хотя бы 2 одинаковых числа
+    print(2)
 else:
-    print(0)  # Все числа разные
+    print(0)
